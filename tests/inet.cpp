@@ -3,7 +3,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "Vanttec_CANLib/ByteOrder/inet.h"
+#include "CANLib/ByteOrder/inet.h"
 #include <arpa/inet.h>
 /**
  * Compare vanttec implementation vs inet

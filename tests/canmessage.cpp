@@ -3,7 +3,7 @@
 //
 
 #include <gtest/gtest.h>
-#include "Vanttec_CANLib/CANMessage.h"
+#include "CANLib/CANMessage.h"
 
 TEST(CANMessage, Float){
     float i = -100;

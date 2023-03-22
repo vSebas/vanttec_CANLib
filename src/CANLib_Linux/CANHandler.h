@@ -14,7 +14,7 @@
 #include <queue>
 #include <functional>
 #include "socketcan.h"
-#include "Vanttec_CANLib/CANMessage.h"
+#include "CANLib/CANMessage.h"
 
 namespace vanttec {
     class CANHandler {

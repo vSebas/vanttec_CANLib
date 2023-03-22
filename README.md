@@ -19,8 +19,8 @@ No dependencies are needed
 
 ### Usage
 
-* Use `src/Vanttec_CANLib/` for a platform agnostic implementation.
-* Use `src/Vanttec_CANLib_Linux/` for a Linux SocketCAN implementation.
+* Use `src/CANLib/` for a platform agnostic implementation.
+* Use `src/CANLib_Linux/` for a Linux SocketCAN implementation.
 
 
 ## Version History

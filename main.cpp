@@ -5,9 +5,9 @@
 #include <numeric>
 #include <thread>
 #include <chrono>
-#include "Vanttec_CANLib/Utils/CANDeserialization.h"
-#include "Vanttec_CANLib/Utils/CANSerialization.h"
-#include "Vanttec_CANLib_Linux/CANHandler.h"
+#include "CANLib/Utils/CANDeserialization.h"
+#include "CANLib/Utils/CANSerialization.h"
+#include "CANLib_Linux/CANHandler.h"
 
 int main() {
     vanttec::CANHandler handler("can0");

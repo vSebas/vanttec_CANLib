@@ -3,8 +3,8 @@
 //
 
 #include <gtest/gtest.h>
-#include "Vanttec_CANLib/Utils/CANSerialization.h"
-#include "Vanttec_CANLib/Utils/CANDeserialization.h"
+#include "CANLib/Utils/CANSerialization.h"
+#include "CANLib/Utils/CANDeserialization.h"
 
 float serializeDeserializeFloat(float in){
     return deserialize_float(serialize_float(in));
